@@ -29,6 +29,12 @@ Many [Block Explorers](/developers/docs/data-and-analytics/block-explorers/) off
 
 Developers can then process and transform this data to give their users unique insights and interactions with the [blockchain](/glossary/#blockchain).
 
+## BigQuery public dataset {#bigquery}
+
+The [BigQuery Ethereum public dataset](https://console.cloud.google.com/bigquery?project=bigquery-public-data&d=crypto_ethereum&p=bigquery-public-data&page=dataset) is a centralized [Web2](https://ethereum.org/nl/developers/docs/web2-vs-web3/) resource maintained by Google. The database has up-to-date information on blocks, token transfers, and other on-chain data, and it can be [queried via a Jupyter notebook](https://cloud.google.com/bigquery/docs/visualize-jupyter). Developers with previous data science and cloud computing experience may find this tool useful for on-chain analysis.
+
+Please note that using this resource will require a Google account to access.
+
 ## Further Reading {#further-reading}
 
 - [Graph Network Overview](https://thegraph.com/docs/network#overview)
